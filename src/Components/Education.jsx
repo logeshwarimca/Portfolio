@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGraduationCap, FaCalendarAlt, FaMapMarkerAlt, FaUniversity, FaTrophy } from 'react-icons/fa';
 import '../css/Education.css';
+import education from '../imgs/education.mp4'
 
 const educationData = [
   {
@@ -33,7 +34,7 @@ const Education = () => {
     muted
     playsInline
   >
-    <source src="src\imgs\education.mp4" type="video/mp4" />
+    <source src={education} type="video/mp4" />
   </video>
       <div className="edu-container">
         <h2 className="edu-title">Academic <span>History</span></h2>

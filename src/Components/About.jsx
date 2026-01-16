@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "../css/about.css";
+import aboutimg from '../imgs/about.png'
 
 const container = {
   hidden: { opacity: 0 },
@@ -61,7 +62,7 @@ const About = () => {
         {/* LEFT */}
         <motion.div className="about-image" variants={item}>
           <div className="image-glow"></div>
-          <img src="src\imgs\about.png" alt="profile" />
+          <img src={aboutimg} alt="profile" />
         </motion.div>
 
         {/* RIGHT */}

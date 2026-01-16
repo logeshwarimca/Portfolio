@@ -4,6 +4,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 // auto typing
 import { ReactTyped } from "react-typed";
+import homevdo from '../imgs/homevdo.mp4'
+import homeimg from '../imgs/home.png'
 
 
 const Home = () => {
@@ -17,7 +19,11 @@ const Home = () => {
     muted
     playsInline
   >
+<<<<<<< HEAD
     <source src="https://github.com/logeshwarimca/Portfolio/blob/main/src/imgs/home-background.mp4" type="video/mp" />
+=======
+    <source src={homevdo} type="video/mp4" />
+>>>>>>> 97196aa (img fixed)
   </video>
         <div className='home-content'>
             <div className="h-content">
@@ -55,7 +61,7 @@ const Home = () => {
 
         </div>
         <div className='home-img'>
-            <img src="src\imgs\home.png" alt="" />
+            <img src={homeimg} alt="" />
         </div>
     </div>
   )

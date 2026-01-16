@@ -2,6 +2,7 @@ import { FaUser, FaEnvelope, FaPen, FaPaperPlane } from 'react-icons/fa';
 import '../css/Contact.css';
 import emailjs from "@emailjs/browser";
 import React, { useRef } from 'react';
+import contactvdo from '../imgs/contactvdo.mp4'
 
 
 const Contact = () => {
@@ -35,9 +36,6 @@ const Contact = () => {
         console.error(error);
         alert("❌ Failed to send message!");
       });
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   alert("Message Sent!");
   };
 
   return (
@@ -50,7 +48,7 @@ const Contact = () => {
     muted
     playsInline
   >
-    <source src="src\imgs\contact.mp4" type="video/mp4" />
+    <source src={contactvdo} type="video/mp4" />
   </video>
       {/* Background Circuit Decoration */}
       <div className="circuit-lines"></div>
