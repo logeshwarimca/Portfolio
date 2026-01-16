@@ -17,7 +17,7 @@ const Home = () => {
     muted
     playsInline
   >
-    <source src="src\imgs\contact.mp4" type="video/mp4" />
+    <source src="https://github.com/logeshwarimca/Portfolio/blob/main/src/imgs/home-background.mp4" type="video/mp" />
   </video>
         <div className='home-content'>
             <div className="h-content">
