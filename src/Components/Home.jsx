@@ -19,11 +19,7 @@ const Home = () => {
     muted
     playsInline
   >
-<<<<<<< HEAD
-    <source src="https://github.com/logeshwarimca/Portfolio/blob/main/src/imgs/home-background.mp4" type="video/mp" />
-=======
     <source src={homevdo} type="video/mp4" />
->>>>>>> 97196aa (img fixed)
   </video>
         <div className='home-content'>
             <div className="h-content">
